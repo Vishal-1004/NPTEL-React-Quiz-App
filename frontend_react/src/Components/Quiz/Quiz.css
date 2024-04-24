@@ -1,0 +1,108 @@
+.quizContainer {
+  width: 80%;
+  margin: auto;
+  margin: 2rem auto;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.quizContainer hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.quizContainer h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.quizContainer h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.quizContainer ul {
+  padding: 0 !important;
+}
+
+.quizContainer ul li {
+  display: flex;
+  align-items: center;
+  height: 3.25rem;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.quizContainer button {
+  margin: auto;
+  width: 8%;
+  height: 3rem;
+  /*
+  background-color: #0d6efd;
+  color: #fff;
+  */
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.quizContainer .index {
+  margin: auto;
+  font-size: 15px;
+}
+
+.quizContainer .correct {
+  background-color: #dffff2;
+  border-color: #00d397;
+}
+
+.quizContainer .wrong {
+  background-color: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+@media screen and (max-width: 768px) {
+  /* Your styles for smaller screens here */
+  .quizContainer {
+    width: 98%;
+    margin-top: 2rem;
+    gap: 12px;
+  }
+
+  .quizContainer h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .quizContainer h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .quizContainer ul li {
+    height: 4rem;
+    padding-left: 12px;
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+  }
+
+  .quizContainer button {
+    margin: auto;
+    width: 25%;
+    height: 3rem;
+    font-size: 1.05rem;
+  }
+}

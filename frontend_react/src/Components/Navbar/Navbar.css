@@ -1,0 +1,15 @@
+.logo-name {
+    font-weight: 400 !important;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .btn-frg-style {
+      margin: 0 !important;
+      display: flex;
+      width: fit-content;
+      width: -moz-fit-content;
+      justify-content: center;
+      flex-direction: column;
+    }
+}
